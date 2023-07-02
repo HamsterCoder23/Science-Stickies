@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./code.js "> </script>
+<body>
+<header>
+    <div class="header">
+        <h1>Science Stickies</h1>
+    </div>
+</header>
+
+<div></div>
+
+<!-- <a href = "../index.html"><nav>Website List</nav></a> -->
+
+<main>
+    <!-- New entry adder -->
+    <form id="newEntry" onsubmit="return false;">
+        <h1>Add a Website:</h1>
+        <b>Title: </b>
+        <input type="text" id="userInputTitle" />
+        <div></div>
+        <b>Link: </b>
+        <input type="text" id="userInputLink" />
+        <!-- <div></div> -->
+        <!-- <b>Image: </b> -->
+        <!-- <input type="text" id="userInputImage" /> -->
+        <button margin="5px" form="newEntry" onclick="createEntry()"> Add </button>    
+    </form>
+
+    <form id="search" onsubmit="return false">
+        <b>Search: </b>
+        <input type="text" id="userSearch" placeholder="Search..">
+        <button margin="5px" form="search" onclick="search()"> Go </button>    
+        <button margin="5px" form="search" onclick="clearSearch()"> Clear </button>    
+    </form>
+
+
+    <hr>
+
+    <!-- Display list of entries -->
+    <div class="container">
+        <ul id="display">
+            
+        </ul>
+    </div>
+   
+</main>
+
+<!-- <button onclick="clearSave()"> Clear </button> -->
+
+<footer> </footer>
+
+    <!-- check for saved data once page is loaded -->
+<script>boot()</script>
+</body>
+</html>

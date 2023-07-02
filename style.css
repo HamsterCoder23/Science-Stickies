@@ -1,0 +1,71 @@
+.header {
+    padding: 40;
+    text-align: center; 
+    background: #344cac; 
+}
+
+.header h1 {
+    font-size: 40px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: rgb(255, 255, 255); 
+}
+
+body {
+    background-color: rgb(252, 255, 230);
+}
+  
+p {
+    color: rgb(0, 0, 0);
+}
+
+form {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+ul {
+    font-family: Helvetica, Arial, sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    list-style-position: inside;
+}
+
+li {
+    border: 5px solid rgb(182, 226, 182);
+    margin: 5px;
+    padding: 5px;
+    width: 70%;
+    display: inline-block;
+}
+
+hr {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 5px;
+}
+
+textarea {
+    width: 99%;
+    resize: vertical;
+}
+
+
+span:hover  {
+   opacity: 50%;
+}
+
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+
+div.container {
+    text-align: center;
+}
+
